@@ -33,23 +33,44 @@ cursor: pointer;
   max-width: 450px;
   margin: 0 auto;
   border-radius: 16px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0,1);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
 }
 ul { text-align: left;
 display: inline-block;
 margin-top: 10px;
 }
+h1 {
+  margin-bottom: 10px;
+}
+h2 { 
+  margin-top: 30px;
+margin-bottom: 10px;
+}
+p { 
+  line-height: 1.6;
+  color: #444;
+}
+.section { 
+  margin-bottom: 20px;
+}
   </style>
 </head>
 <body>
-  <div class="container">
-  <h1>hi, im learning web development</h1> 
-  <p>welcome to my first portfolio website.</p>
-  <img src="profile.jpg" />
-  <p>i am learning html</p>
+  <div class="container"> 
+  <div class="section">
+    <h1>hi, im learning web development</h1>
+    </div> 
+  <div class="section">
+    <p>welcome to my first portfolio website.</p>
+    </div>
+  <div class="section">
+    <img src="profile.jpg" />
+    </div>
+  <div class="section">
   <h2> About me</h2>
-  <p> i will be a billionaire one day, trust me ma and pa
-  </p>
+  <p> i will be a billionaire one day, trust me ma and pa</p>
+  </div>
+  <div class="section">
   <h2> projects</h2>
   <p> here are some things im building while learning  web development</p>
   <ul> 
@@ -57,7 +78,10 @@ margin-top: 10px;
     <li> git and github practice repo</li>
     <li> HTML/CSS experiments</li>
   </ul>
+  </div>
+  <div class="section">
   <a class=" button" href="https://www.instagram.com/qumrie_/" target="_blank">Contact me</a>
+  </div>
   </div>
 </body>
 </html>
